@@ -1,0 +1,77 @@
+/* Styles for the order form container */
+.order-form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.order-form-container h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for form elements */
+.order-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styles for better alignment */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Input styles */
+.order-form-container input {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Input focus styles */
+.order-form-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Label styles */
+.order-form-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #495057;
+}
+
+/* Button styles */
+.order-form-container button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover styles */
+.order-form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Response message styles */
+.order-form-container p {
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+}
